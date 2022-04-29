@@ -1,0 +1,30 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven {
+            setUrl("https://jitpack.io")
+        }
+        maven {
+            setUrl("https://maven.aliyun.com/nexus/content/groups/public/")
+        }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            setUrl("https://jitpack.io")
+        }
+        maven {
+            setUrl("https://maven.aliyun.com/nexus/content/groups/public/")
+        }
+    }
+}
+rootProject.name = "ChangeSkins"
+include ':app'
+//include ':skinlib'
+include ':skinpkg'

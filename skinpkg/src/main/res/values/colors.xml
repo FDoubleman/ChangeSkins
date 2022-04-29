@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="color_reset_btn">#F44336</color>
+    <color name="color_set_btn">#E91E63</color>
+
+    <color name="color_skin_text">#9C27B0</color>
+    <color name="color_skin_bg">#CDDC39</color>
+
+</resources>
